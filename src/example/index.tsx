@@ -15,10 +15,10 @@ export default function Example() {
                 <Text className="text-white font-semibold text-center my-2 text-2xl">
                     example
                 </Text>
-                <Card color="red" text="1" />
-                <Card color="sky" text="2" />
-                <Card color="purple" text="3" />
-                <Card color="amber" text="4" />
+                <Card color="bg-red-500" text="1" />
+                <Card color="bg-sky-500" text="2" />
+                <Card color="bg-purple-500" text="3" />
+                <Card color="bg-amber-500" text="4" />
             </SwipeUp>
         </View>
     );
