@@ -1,6 +1,6 @@
 # SwipeUp Lib React-Native
 
-SwipeUp Lib é uma biblioteca para React Native que oferece uma solução fácil e flexível para adicionar gestos de deslizar para cima em seus aplicativos móveis. Com essa biblioteca, os desenvolvedores podem implementar rapidamente a funcionalidade de swipe up para acionar ações, revelar menus ou exibir informações adicionais, melhorando a experiência do usuário.
+SwipeUp Lib is a React Native library that provides an easy and flexible solution for adding swipe-up gestures to your mobile applications. With this library, developers can quickly implement the swipe-up functionality to trigger actions, reveal menus, or display additional information, enhancing the user experience.
 
 
 ## Funcionalidades
