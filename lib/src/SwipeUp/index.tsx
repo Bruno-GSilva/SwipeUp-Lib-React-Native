@@ -9,17 +9,16 @@ import Animated, {
 import {
   Gesture,
   GestureDetector,
-  GestureHandlerRootView,
 } from "react-native-gesture-handler";
 
-interface ExampleProps {
+interface SwipeUpProps {
   children: React.ReactNode;
   borderColor?: string;
   backgroundColor?: string;
   touchIconColor?: string;
 }
 
-export default function SwipeUp(props: ExampleProps) {
+export default function SwipeUp(props: SwipeUpProps) {
   const { height: screenY } = useWindowDimensions();
   const [openContent, setOpenContent] = useState<boolean>(true);
 
@@ -91,3 +90,7 @@ export default function SwipeUp(props: ExampleProps) {
     </>
   );
 }
+
+module.exports = {
+  SwipeUp
+} 

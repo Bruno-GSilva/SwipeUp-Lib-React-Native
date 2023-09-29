@@ -1,5 +1,7 @@
+import React from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import Example from "./src/example";
+
+import Example from "./lib/src/example";
 
 export default function App() {
   return (
