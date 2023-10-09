@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Text, TouchableOpacity, View } from "react-native";
+import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import SwipeUp from "../SwipeUp";
 import { Card } from "../card";
 
@@ -14,18 +14,18 @@ export default function Example(): React.JSX.Element {
         backgroundColor="bg-black"
         touchIconColor="bg-black"
       >
-        <Text className="text-white font-semibold text-center my-2 text-2xl">
-          example
-        </Text>
-        <Card color="bg-red-500" text="1" />
-        <Card color="bg-sky-500" text="2" />
-        <Card color="bg-purple-500" text="3" />
-        <Card color="bg-amber-500" text="4" />
+        <ScrollView>
+          <Text className="text-white font-semibold text-center my-2 text-2xl">
+            example
+          </Text>
+          <Card color="bg-red-500" text="1" />
+          <Card color="bg-sky-500" text="2" />
+          <Card color="bg-purple-500" text="3" />
+          <Card color="bg-amber-500" text="4" />
+        </ScrollView>
       </SwipeUp>
     </View>
   );
 }
 
-module.exports = {
-  Example,
-};
+module.exports = Example;

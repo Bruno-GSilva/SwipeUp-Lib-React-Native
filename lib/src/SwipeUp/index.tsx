@@ -91,6 +91,4 @@ export default function SwipeUp(props: SwipeUpProps) {
   );
 }
 
-module.exports = {
-  SwipeUp
-} 
+module.exports = SwipeUp;
