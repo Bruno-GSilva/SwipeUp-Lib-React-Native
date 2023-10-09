@@ -66,7 +66,7 @@ export default function Example() {
 
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
+![Texto Alternativo]("./assets/example.gif")
 
 
 ## Melhorias
