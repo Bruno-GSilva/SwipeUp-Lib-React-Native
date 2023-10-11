@@ -1,8 +1,8 @@
 {
   "name": "swipeup-lib-react-native",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "main": "./lib/index.ts",
-  "types": "./lib/src/@types/index.d.ts",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",

@@ -18,7 +18,7 @@ interface SwipeUpProps {
   touchIconColor?: string;
 }
 
-export default function SwipeUp(props: SwipeUpProps) {
+export function SwipeUp(props: SwipeUpProps) {
   const { height: screenY } = useWindowDimensions();
   const [openContent, setOpenContent] = useState<boolean>(true);
 
@@ -91,4 +91,4 @@ export default function SwipeUp(props: SwipeUpProps) {
   );
 }
 
-module.exports = SwipeUp;
+// export default SwipeUp

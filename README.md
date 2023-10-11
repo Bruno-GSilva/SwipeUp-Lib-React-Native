@@ -3,41 +3,15 @@
 SwipeUp Lib is a React Native library that provides an easy and flexible solution for adding swipe-up gestures to your mobile applications. With this library, developers can quickly implement the swipe-up functionality to trigger actions, reveal menus, or display additional information, enhancing the user experience.
 
 
-## Funcionalidades
+## Features
 
-- personalizável com tailwindcss
-## Rodando localmente
+- Customizable with Tailwind CSS
 
-Clone o projeto
-
-```bash
-  git clone https://github.com/Bruno-GSilva/SwipeUp-Lib-React-Native.git
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd SwipeUp-Lib-React-Native
-```
-
-Instale as dependências
-
-```bash
-  npm install ou yarn
-```
-
-Inicie o servidor
-
-```bash
-  npm expo start --clear ou yarn expo --clear
-```
-
-
-## Uso/Exemplos
+## Usage/Examples
 
 ```javascript
 import { Text, TouchableOpacity, View } from "react-native";
-import SwipeUp from "../SwipeUp";
+import { SwipeUp } from "swipeup-lib-react-native";
 import { Card } from "../card";
 
 export default function Example() {
@@ -64,17 +38,16 @@ export default function Example() {
 ```
 
 
-## Demonstração
+## Demo
 
 ![Texto Alternativo](./assets/example.gif)
 
 
-## Melhorias
+## Improvements
 
-Que melhorias você fez no seu código? Ex: refatorações, melhorias de performance, acessibilidade, etc. Deixe uma issue!
+If you have made any improvements to the code, such as refactoring, performance enhancements, accessibility improvements, etc., please create an issue to discuss them.
 
 
-## Suporte
+## Support
 
-Para suporte, mande um email para brunogomesdsilva7@gmail.com.
-
+For support, please send an email to brunogomesdsilva7@gmail.com.
