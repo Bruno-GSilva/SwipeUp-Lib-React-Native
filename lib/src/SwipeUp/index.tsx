@@ -90,5 +90,3 @@ export function SwipeUp(props: SwipeUpProps) {
     </>
   );
 }
-
-// export default SwipeUp

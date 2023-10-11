@@ -2,6 +2,15 @@
 
 SwipeUp Lib is a React Native library that provides an easy and flexible solution for adding swipe-up gestures to your mobile applications. With this library, developers can quickly implement the swipe-up functionality to trigger actions, reveal menus, or display additional information, enhancing the user experience.
 
+## Usage
+
+```bash
+# Using npm
+npm install react-native-tailwindcss
+
+# Using Yarn
+yarn add react-native-tailwindcss
+```
 
 ## Features
 

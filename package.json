@@ -1,6 +1,6 @@
 {
   "name": "swipeup-lib-react-native",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./lib/index.ts",
   "types": "./lib/index.d.ts",
   "scripts": {
