@@ -4,7 +4,7 @@ import { ScrollView, Text, TouchableOpacity, View } from "react-native";
 import SwipeUp from "../SwipeUp";
 import { Card } from "../card";
 
-export default function Example(): React.JSX.Element {
+export default function SwipeUpExample(): React.JSX.Element {
   return (
     <View className="flex-1 p-4 bg-purple-500">
       <TouchableOpacity className="w-48 h-48 bg-emerald-500" />
@@ -28,4 +28,4 @@ export default function Example(): React.JSX.Element {
   );
 }
 
-module.exports = Example;
+module.exports = SwipeUpExample;

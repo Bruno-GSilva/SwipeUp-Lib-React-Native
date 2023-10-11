@@ -1,7 +1,6 @@
-const swipeUp = require("./src/SwipeUp/index");
-const swipeUpExample = require("./src/example/index");
+export * from './index'
 
-module.exports = {
-  swipeUp,
-  swipeUpExample,
-};
+import swipeUp from "./src/SwipeUp/index";
+import swipeUpExample from "./src/example/index";
+
+export default { swipeUp, swipeUpExample };
