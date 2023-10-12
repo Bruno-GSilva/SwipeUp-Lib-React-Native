@@ -6,10 +6,10 @@ SwipeUp Lib is a React Native library that provides an easy and flexible solutio
 
 ```bash
 # Using npm
-npm install react-native-tailwindcss
+npm install swipeup-lib-react-native
 
 # Using Yarn
-yarn add react-native-tailwindcss
+yarn add swipeup-lib-react-native
 ```
 
 ## Features
